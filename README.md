@@ -23,8 +23,21 @@ module.exports = {
   ],
   parserOptions: {
     project: './tsconfig.json'
+  },
+  // Extend your configuration: https://github.com/typescript-eslint/typescript-eslint
+  rules: {
+    '@typescript-eslint/semi': 1
   }
 }
 
 ```
 
+`package.json`
+```javascript
+{
+  ...
+  "scripts": {
+    "lint": "eslint --ext .ts,tsx ./src --fix"
+  }
+}
+```

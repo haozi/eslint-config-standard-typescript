@@ -34,7 +34,7 @@ module.exports = {
       'react/jsx-closing-bracket-location': 0,
       'react/jsx-closing-tag-location': 0,
       'react/jsx-fragments': 0,
-      'sort-imports': 1
+      'sort-imports': 0
     }
   }]
 }
